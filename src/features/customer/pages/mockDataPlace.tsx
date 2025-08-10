@@ -1,0 +1,242 @@
+export const mockDataPlace = [
+  {
+    id: "1",
+    name: "Cafe Chill",
+    category: "Coffee",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "2",
+    name: "Cafe Chill 2",
+    category: "Study",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "3",
+    name: "Cafe Chill 3",
+    category: "Coffee",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "4",
+    name: "Cafe Chill 4",
+    category: "Food & Drink",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "5",
+    name: "Cafe Chill 5",
+    category: "Coffee",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "6",
+    name: "Cafe Chill 6",
+    category: "Entertainment",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "7",
+    name: "Cafe Chill 7",
+    category: "Coffee",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "8",
+    name: "Cafe Chill 8",
+    category: "Park",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "9",
+    name: "Cafe Chill 9",
+    category: "Coffee",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "10",
+    name: "Cafe Chill 10",
+    category: "Coffee",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "11",
+    name: "Cafe Chill 11",
+    category: "Coffee",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "12",
+    name: "Cafe Chill 12",
+    category: "Park",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "13",
+    name: "Cafe Chill 13",
+    category: "Coffee",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "14",
+    name: "Cafe Chill 14",
+    category: "Study",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+  {
+    id: "15",
+    name: "Cafe Chill 15",
+    category: "Coffee",
+    description:
+      "Không gian yên tĩnh, view đẹp, phù hợp để đọc sách và làm việc",
+    image:
+      "https://photo.znews.vn/w960/Uploaded/mrndcqjwq/2024_11_11/439900233_834342558718755_7774630493963132817_n_2.jpg",
+    likes: 24,
+    comments: 8,
+    rating: 4.5,
+    author: "Minh Anh",
+    timeAgo: "2 giờ trước",
+    isLiked: false,
+    isSaved: false,
+  },
+];
