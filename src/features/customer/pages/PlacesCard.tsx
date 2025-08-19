@@ -1,7 +1,6 @@
 import { Card } from "@radix-ui/themes";
 import type { Place } from "../types/types";
 import { ChatBubbleIcon, HeartIcon, StarIcon } from "@radix-ui/react-icons";
-
 interface PlacesCardProps {
   place: Place;
 }
@@ -85,10 +84,6 @@ function PlacesCard({ place }: PlacesCardProps) {
                 <span className="font-medium">{place.comments}</span>
               </button>
             </div>
-
-            <button className="px-4 py-2 bg-primary text-white rounded-lg text-sm font-medium transition-all duration-200 shadow-sm hover:shadow-md">
-              Details
-            </button>
           </div>
         </div>
       </Card>

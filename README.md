@@ -1,69 +1,33 @@
-# React + TypeScript + Vite
+Project Introduction: ChillMap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ChillMap is a web platform that helps users discover and share interesting places by area. The project focuses on providing an intuitive user experience, making it easy to search, save, and review favorite locations.
 
-Currently, two official plugins are available:
+Main Goals
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Help users discover new places based on interests and location.
 
-## Expanding the ESLint configuration
+Allow users to review and share their experiences.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Build an interactive community around notable locations.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Key Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Search Places: By name, type, or area.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Interactive Map: Visually mark locations on a map.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Reviews & Comments: Users can leave ratings and feedback.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Save Favorites: Create personal lists for quick access.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Sharing: Share interesting places with friends or on social media.
+
+Technology Stack
+
+Frontend: ReactJS, TypeScript, TailwindCSS, Redux, Jotai
+
+Backend: Node.js, Express.js
+
+Database: PostgreSQL, Prisma
+
+Other Tools: Vite, ESLint, Dialogflow (for chat suggestions if applicable)
