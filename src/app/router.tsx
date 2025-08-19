@@ -4,6 +4,8 @@ import NotFoundPage from "../features/customer/pages/notfound/NotFoundPage";
 import AuthLayout from "../layouts/auth/AuthLayout";
 import LoginPage from "../components/auth/login/LoginPage";
 import SignUpPage from "../components/auth/signup/SignUpPage";
+import { ExampleButton } from "../components/ui/button/ExampleButton";
+import { ExampleInput } from "../components/ui/input/ExampleInput";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
         element: <SignUpPage />,
       },
     ],
+  },
+  {
+    path: "/example",
+    element: <ExampleButton />,
+  },
+  {
+    path: "/exampleInput",
+    element: <ExampleInput />,
   },
 ]);
 

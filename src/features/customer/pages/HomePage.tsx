@@ -2,6 +2,7 @@ import { Separator } from "@radix-ui/themes";
 import { useState } from "react";
 import PlacesCard from "./PlacesCard";
 import { mockDataPlace } from "./mockDataPlace";
+import { Button } from "../../../components/ui/button/Button";
 
 function HomePage() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -80,17 +81,20 @@ function HomePage() {
     <>
       <div className="flex flex-wrap gap-3 mb-2 mt-4 justify-center">
         {categoriesAddress.map((item) => (
-          <button
+          <Button
+            variant="secondary"
+            size="small"
+            radius="full"
             key={item.id}
             onClick={() => setselectedCategory(item.title)}
             className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
               selectedCategory === item.title
                 ? "bg-primary text-white shadow-sm"
-                : "bg-white text-neutral-sub hover:text-primary hover:bg-primary-hover border border-gray-200"
+                : "bg-white text-neutral-sub "
             }`}
           >
             {item.title}
-          </button>
+          </Button>
         ))}
         <Separator my="1" size="4" />
       </div>
